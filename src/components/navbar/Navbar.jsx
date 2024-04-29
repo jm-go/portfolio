@@ -1,7 +1,8 @@
 import "./Navbar.scss";
 import { motion } from "framer-motion";
+import Sidebar from "../sidebar/Sidebar"
 
-export const Navbar = () => {
+const Navbar = () => {
   return (
     <div className="navbar">
       <Sidebar/>
@@ -24,7 +25,7 @@ export const Navbar = () => {
             <img src="/youtube.png" alt="" />
           </a>
           <a href="#">
-            <img src="/dribble.png" alt="" />
+            <img src="/dribbble.png" alt="" />
           </a>
         </div>
       </div>
