@@ -3,7 +3,9 @@ import "./app.scss";
 const App = () => {
   return (
     <div>
-      <section href="">Hero</section>
+      <section>
+        <Navbar/>
+      </section>
       <section>Parallax</section>
       <section>Services</section>
       <section>Parallax</section>
